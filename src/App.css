@@ -1,0 +1,622 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282a2f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav{
+  background-image: url(./public/header_back.svg);
+  background-position: top;
+  background-size: 100%;
+}
+
+nav .container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+nav .container p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  gap: 5px;
+  display: none;
+}
+
+nav .container .logo img {
+  width: 135px;
+}
+
+nav .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  list-style: none;
+}
+
+nav .container ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav .container .icons {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav .container .icons img {
+  width: 24px;
+}
+
+.hero {
+  background-image: url(./public/header_back.svg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hero .container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 290px;
+  padding: 50px 0px;
+  color: #FFFFFF;
+}
+
+.hero .container .hero-title {
+  margin-top: 100px;
+  font-size: 70px;
+}
+
+.hero .container .card {
+  width: 500px;
+}
+
+.hero .container .card h1{
+  font-weight: 100;
+}
+
+.hero .container .card p {
+  padding: 15px 0px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  transition: all .3s ease;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  transform: scale(1.1);
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+/* Main >>>>>>>> */
+
+.our-mission{
+  background-color: #0D0D0D;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-mission .section-bg2{
+  position: absolute;
+  margin-left: 56%;
+  margin-top: 280px;
+
+}
+
+.our-mission .container{
+  padding: 100px 0px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  color: #FFFFFF;
+  text-align: center;
+  background-image: url(./public/bg.png);
+  z-index: 999;
+}
+
+.our-mission .container .section-info img{
+  width: 80px;
+}
+
+
+.our-mission .container .section-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.our-mission .container .section-img .car-img{
+  width: 280px;
+}
+
+.our-mission .container .section-img .car-img2{
+  width: 240px;
+  margin-top: 50px;
+}
+
+.our-mission .container .section-img .img1{
+  margin-top: -70px;
+  margin-right: -130px;
+}
+
+.our-mission .container .section-img .img2{
+  margin-top: -70px;
+  margin-left: -130px;
+}
+
+.our-mission .container .section-info .section-title{
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.our-mission .container .section-info p{
+  padding: 15px 0px;
+  width: 480px;
+  font-size: 20px;
+}
+
+.our-button{
+  background-color: #6DAECB;
+  border: transparent;
+  color: white;
+  margin-top: 10px;
+}
+
+.our-button:hover{
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+
+.Exsplore{
+  background-color: #282a2f;
+}
+
+.Exsplore .container{
+  color: #FFFFFF;
+  padding: 100px 0px;
+}
+
+.Exsplore .container .Exsplore-title{
+  font-size: 60px;
+}
+
+.Exsplore .container p{
+  width: 400px;
+  padding: 15px 0px;
+}
+
+.Exsplore .container .cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.Exsplore .container .cards .card{
+  padding: 30px;
+  width: 500px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 210px;
+  background-image: url(../public/car-img3.png);
+  background-size: 100%;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.Exsplore .container .cards .card2{
+  padding: 30px;
+  height: 350px;
+  background-image: url(../public/car-img4.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Exsplore .container .cards .card h1{
+  font-size: 40px;
+}
+
+.Exsplore .container .cards .card .price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.Exsplore .container .cards .card .price p{
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.Exsplore .container .cards .card .price p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.find {
+  background-image: url(../public/car.jpeg);
+  background-size: 100%;
+  background-position: center;
+  padding: 100px 0px;
+}
+
+.find .container .box{
+  width: 500px;
+  height: 360px;
+  border-radius: 5px;
+  padding: 50px;
+  background-color: #FFFFFF;
+}
+
+.find .container .box .find-title{
+  font-size: 45px;
+}
+
+.find .container .box p{
+  padding: 20px 0px;
+  width: 88%;
+}
+
+.find .container .box .search{
+  border: 1px solid rgba(128, 128, 128, 0.355);
+  padding: 0px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.find .container .box .search img{
+  cursor: pointer;
+}
+
+.find .container .box .search input{
+  padding: 15px 185px 15px 5px;
+  border: none;
+  outline: none;
+}
+
+.find .container .box .or{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.find .container .box .or img{
+  width: 300px;
+}
+
+.find .container .box button{
+  width: 100%;
+  padding: 12px 0px;
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+
+.full-section{
+  background-color: #282a2f;
+}
+
+.full-section .container{
+  padding: 80px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.full-section .container .section-info h1{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.full-section .container .section-info  p{
+  width: 480px;
+  padding: 15px 0px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* FOOTER >>>>>>>>> */
+
+footer {
+  background-color: #0D0D0D;
+}
+
+footer .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  gap: 30px;
+  padding: 20px 0px;
+}
+
+footer .container .ptag{
+  margin-right: 400px;
+}
+
+footer .container .ptag2{
+  display: none;
+}
+
+footer .container ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+footer .container ul a{
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+footer .container .linefull{
+  display: none;
+}
+
+
+@media (max-width: 467px){
+  nav .container ul{
+    display: none;
+  }
+
+  nav .container .icons{
+    display: none;
+  }
+
+  nav .container{
+    padding: 15px 15px;
+  }
+
+  nav .container p{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  nav .container p img{
+    width: 25px;
+    margin-top: 5px;
+  }
+
+  .hero {
+    background-image: url(../public/mobil-hero.png);
+    background-size: 100%;
+    background-position: top;
+    background-position-y: -57px;
+  }
+
+  .hero .container .hero-title{
+    font-size: 40px;
+    margin-top: 8%;
+  }
+
+  .hero .container .card{
+    width: 95%;
+  }
+
+  .hero .container .card p{
+    padding: 30px 0px 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+
+  .hero .container{
+    row-gap: 150px;
+  }
+
+  .our-mission{
+    background-image: url(./public/Mission\ BG.png);
+  }
+  
+  .our-mission .container .section-img{
+    display: none;
+  }
+
+  .our-mission .container .section-info{
+    width: 90%;
+  }
+
+  .our-mission .container .section-info p{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .our-mission .container .section-info .section-title{
+    font-size: 40px;
+  }
+
+  .section-bg1{
+    display: none;
+  }
+
+  .section-bg1{
+    display: none;
+  }
+
+  .Exsplore .container{
+    width: 90%;
+    padding: 40px 0px;
+  }
+
+  .Exsplore .container .cards{
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  
+  .Exsplore .container p{
+    width: 100%;
+  }
+
+  .Exsplore .container .Exsplore-title{
+    font-size: 40px;
+  }
+
+  
+  .Exsplore .container .cards .card{
+    width: 90%;
+    height: 200px;
+    background-repeat: no-repeat;
+    row-gap: 85px;
+  }
+
+  .Exsplore .container .cards .card h1{
+    font-size: 25px;
+  }
+  .Exsplore .container .cards .card .price p{
+    font-size: 14px;
+  }
+
+  .find{
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 220px 0px 0px 0px;
+  }
+
+  .find .container .box{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 10px;
+  }
+
+  .find .container .box .find-title{
+    font-size: 30px;
+  }
+
+  .find .container .box  .search{
+    width: 100%;
+  }
+
+  .find .container .box  .search input{
+    padding: 12px 130px 12px 5px;
+  }
+
+  .find .container .box .or{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .find .container .box .or img{
+    width: 90%;
+  }
+
+  .full-section .container{
+    width: 100%;
+  }
+
+  .full-section .container .section-info{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .full-section .container .section-info h1{
+    font-size: 25px;
+  }
+
+  .full-section .container .section-info h1 img{
+    width: 60px;
+  }
+  
+  .full-section .container .section-info p{
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .full-section .container .section-info button{
+    margin-top: 20px;
+  }
+
+  .full-section .container .section-img{
+    display: none;
+  }
+  
+  footer .container{
+    flex-direction: column;
+    padding: 40px 0px 20px 0px;
+  }
+
+  footer .container .ptag{
+    display: none;
+  }
+
+  footer .container .ptag2{
+    display: block;
+    font-size: 18px;
+  }
+
+  footer .container ul{
+    flex-direction: column;
+  }
+
+  footer .container .img-none{
+    display: none;
+  }
+
+  footer .container .linefull{
+    display: block;
+    width: 90%;
+  }
+
+}
