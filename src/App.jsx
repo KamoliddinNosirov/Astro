@@ -46,8 +46,8 @@ function App() {
           <img className='section-bg2' src="./public/bg2.png" alt="" />
           <div className="container">
             <div className="section-img">
-              <img className='car-img' src="./public/img1.png" alt="" />
-              <img className='img1' src="./public/img2.png" alt="" />
+              <img className='car-img' src="/img1.png" alt="" />
+              <img className='img1' src="/img2.png" alt="" />
             </div>
             <div className="section-info">
               <img src="./public/Vector.png" alt="" />
@@ -57,8 +57,8 @@ function App() {
               <button className='our-button'>Learn more</button>
             </div>
             <div className="section-img">
-              <img className='car-img car-img2' src="./public/img3.png" alt="" />
-              <img className='img2' src="./public/img4.png" alt="" />
+              <img className='car-img car-img2' src="/img3.png" alt="" />
+              <img className='img2' src="/img4.png" alt="" />
             </div>
           </div>
         </section>
