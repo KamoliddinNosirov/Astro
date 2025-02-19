@@ -14,7 +14,7 @@ body {
 }
 
 nav{
-  background-image: url(./public/header_back.svg);
+  background-image: url(../public/header_back.svg);
   background-position: top;
   background-size: 100%;
 }
@@ -65,7 +65,7 @@ nav .container .icons img {
 }
 
 .hero {
-  background-image: url(./public/header_back.svg);
+  background-image: url(../public/header_back.svg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ button:hover {
   justify-content: space-between;
   color: #FFFFFF;
   text-align: center;
-  background-image: url(./public/bg.png);
+  background-image: url(../public/bg.png);
   z-index: 999;
 }
 
@@ -467,7 +467,7 @@ footer .container .linefull{
   }
 
   .our-mission{
-    background-image: url(./public/Mission\ BG.png);
+    background-image: url(../public/Mission\ BG.png);
   }
   
   .our-mission .container .section-img{
